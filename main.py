@@ -23,7 +23,7 @@ if uploaded_file is not None:
         detected_counts = {}
 
         for result in results:
-            annotated_image = result.plot()  # This returns a numpy array
+            annotated_image = result.plot()
 
             annotated_image = Image.fromarray(annotated_image)
 
