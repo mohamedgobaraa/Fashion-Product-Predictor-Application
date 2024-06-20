@@ -16,7 +16,7 @@ if uploaded_file is not None:
 
     if analyser:
         # Load the model
-        model = YOLO("Fashion/best.pt")
+        model = YOLO("best.pt")
 
         # Run the model on the uploaded image
         results = model(image)
