@@ -3,6 +3,9 @@ from ultralytics import YOLO
 from PIL import Image
 import io
 
+st.title("Fashion product predictor")
+st.subheader("Upload the image to analyze it")
+
 uploaded_file = st.file_uploader("Upload image", type=['png', 'jpg', 'jpeg'])
 
 if uploaded_file is not None:
